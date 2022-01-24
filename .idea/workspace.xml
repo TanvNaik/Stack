@@ -2,47 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d955f4d4-3970-4f34-b805-e513f2438f8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/clients/client-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/counts-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/cta-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/features.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/slide/slide-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/team/team-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/team/team-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/team/team-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/team/team-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials/testimonials-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials/testimonials-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials/testimonials-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials/testimonials-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/testimonials/testimonials-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
