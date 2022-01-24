@@ -12,50 +12,11 @@ app.config['MAIL_USERNAME'] = 'jaggudixit686@gmail.com'
 app.config['MAIL_PASSWORD'] = '*****'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-# socket.getaddrinfo('127.0.0.1', 5000)
 
-mail = Mail(app)
-
-def mailing():
-    msg = Message('Hello', sender='jaggudixit686@gmail.com', recipients=['jagmohandixit686@gmail.com'])
-    mail.send(msg)
 
 @app.route('/')
-# @app.route('/about')
 def home():
     return render_template('index.html')
-
-@app.route('/home')
-def homes():
-    return render_template('home.html')
-
-@app.route('/about')
-def about():
-    return render_template('about.html')
-
-@app.route('/services')
-def services():
-    return render_template('services.html')
-
-@app.route('/portfolio')
-def portfolio():
-    return render_template('portfolio.html')
-
-@app.route('/team')
-def team():
-    return render_template('team.html')
-
-@app.route('/dropdown')
-def dropdown():
-    return render_template('index.html')
-
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
-
-@app.route('/testinomial')
-def testinomial():
-    return render_template('testinomial.html')
 
 @app.route('/form_mail', methods=['POST'])
 def form_mail():
