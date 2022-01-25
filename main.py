@@ -20,13 +20,13 @@ def form_mail():
         name = request.form['name']
         subject = request.form['subject']
         user_message = request.form['message']
-        server.sendmail('your email', email, message)
-        server.sendmail(email, 'your email', user_message)
+        server.sendmail('naiktanvi30@gmail.com', email, message)
+        server.sendmail(email, 'naiktanvi30@gmail.com', user_message)
     else:
         message = "Thank you for subscribing to our newsletter"
         msg = "This email subscribe our newsletter !"
-        server.sendmail(email, 'your email', msg)
-        server.sendmail('your email', email, message)
+        server.sendmail(email, 'naiktanvi30@gmail.com', msg)
+        server.sendmail('naiktanvi30@gmail.com', email, message)
     
     server.close()
     return render_template('index.html')
