@@ -12,19 +12,22 @@ def home():
 def form_mail():
     email = request.form['email']
     mail_type = request.form['mail_type']
-
-    if mail_type == "subcription-mail":
-        message = "Thank you subscribing to our newsletter"
+    server = SMTP(host='smtp.gmail.com', port=587)
+    server.starttls()
+    server.login('jagmohandixit686@gmail.com', 'jaggu@5252')
+    if mail_type == "query-mail":
+        message = "Thankyou for your query we will contact you as son as possible !"
         name = request.form['name']
         subject = request.form['subject']
         user_message = request.form['message']
+        server.sendmail('jagmohandixit686@gmail.com', email, message)
+        server.sendmail(email, 'jagmohandixit686@gmail.com', user_message)
     else:
-        message = "Your message has been sent. Thank you!"
-
-    server = SMTP(host='smtp.gmail.com', port=587)
-    server.starttls()
-    server.login('emailId', 'pass')
-    server.sendmail('naiktanvi30@gmail.com', email, message)
+        message = "Thank you for subscribing to our newsletter"
+        msg = "This email subscribe our newsletter !"
+        server.sendmail(email, 'jagmohandixit686@gmail.com', msg)
+        server.sendmail('jagmohandixit686@gmail.com', email, message)
+    
     server.close()
     return render_template('index.html')
 
