@@ -14,19 +14,19 @@ def form_mail():
     mail_type = request.form['mail_type']
     server = SMTP(host='smtp.gmail.com', port=587)
     server.starttls()
-    server.login('jagmohandixit686@gmail.com', 'jaggu@5252')
+    server.login('your email', 'your password')
     if mail_type == "query-mail":
         message = "Thankyou for your query we will contact you as son as possible !"
         name = request.form['name']
         subject = request.form['subject']
         user_message = request.form['message']
-        server.sendmail('jagmohandixit686@gmail.com', email, message)
-        server.sendmail(email, 'jagmohandixit686@gmail.com', user_message)
+        server.sendmail('your email', email, message)
+        server.sendmail(email, 'your email', user_message)
     else:
         message = "Thank you for subscribing to our newsletter"
         msg = "This email subscribe our newsletter !"
-        server.sendmail(email, 'jagmohandixit686@gmail.com', msg)
-        server.sendmail('jagmohandixit686@gmail.com', email, message)
+        server.sendmail(email, 'your email', msg)
+        server.sendmail('your email', email, message)
     
     server.close()
     return render_template('index.html')
