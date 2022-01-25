@@ -27,7 +27,6 @@ def form_mail():
         msg = "This email subscribe our newsletter !"
         server.sendmail(email, 'naiktanvi30@gmail.com', msg)
         server.sendmail('naiktanvi30@gmail.com', email, message)
-    
     server.close()
     return render_template('index.html')
 
