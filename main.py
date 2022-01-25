@@ -28,7 +28,6 @@ def form_mail():
         server.sendmail(email, 'naiktanvi30@gmail.com', msg)
         server.sendmail('naiktanvi30@gmail.com', email, message)
         
-        
     server.close()
     return render_template('index.html')
 
