@@ -15,7 +15,7 @@ def form_mail():
     mail_type = request.form['mail_type']
     server = SMTP(host='smtp.gmail.com', port=587)
     server.starttls()
-    server.login('naiktanvi30@gmail.com', 'tanvitanu')
+    server.login('naiktanvi30@gmail.com', '')
     if mail_type == "query-mail":
         message = "Thankyou for your query we will contact you as son as possible !"
         name = request.form['name']
