@@ -42,7 +42,7 @@ def form_mail():
 @app.route('/portfolio/<project>')
 def portfolio_details(project):
 
-   return render_template("portfolio-details.html")
+   return render_template("portfolio-details.html", project = project)
 
 
 if __name__ == '__main__':
