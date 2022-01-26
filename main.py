@@ -1,7 +1,15 @@
 from flask import Flask, render_template, request, url_for
 import os
 import smtplib
+
+
 app = Flask(__name__)
+
+
+
+host = os.environ.get('host')
+sender_email = os.environ.get('senderEmail')
+email_pass = os.environ.get('emailPass')
 
 def send_email(user, pwd, recipient, subject, body):
 
@@ -23,14 +31,6 @@ def send_email(user, pwd, recipient, subject, body):
 
 
 
-
-app = Flask(__name__)
-
-host = os.environ.get('host')
-sender_email = os.environ.get('senderEmail')
-email_pass = os.environ.get('emailPass')
-
-
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -45,13 +45,13 @@ def form_mail():
     if mail_type == "query-mail":
         subject = request.form['subject'] 
         message = request.form['message']
-        send_email("info@stackx.online", "StackX@123", email, "Thankyou for contacting us","Our representative will reach to you soon.\nTeam Stackx")
+        send_email(sender_email, email_pass, email, "Thankyou for contacting us","Our representative will reach to you soon.\nTeam Stackx")
         
     else:
-        send_email("info@stackx.online", "StackX@123", email, "ThankYou", "Thankyou For subscribing NewsLetter")
-
-
+        send_email(sender_email, email_pass, email, "ThankYou", "Thankyou For subscribing NewsLetter")
     return render_template('index.html')
+
+
 
 @app.route('/portfolio/<project>')
 def portfolio_details(project):
@@ -62,6 +62,3 @@ def portfolio_details(project):
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-if __name__ == '__main__':
-    app.run(debug=True)

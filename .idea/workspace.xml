@@ -4,12 +4,6 @@
     <list default="true" id="d955f4d4-3970-4f34-b805-e513f2438f8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/img/team/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/team/team-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/img/team/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/team/team-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/img/team/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/team/team-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/img/team/team-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/team/team-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
