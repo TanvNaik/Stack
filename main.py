@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, url_for
+app = Flask(__name__)
 
 def send_email(user, pwd, recipient, subject, body):
     import smtplib
@@ -7,7 +8,7 @@ def send_email(user, pwd, recipient, subject, body):
     TO = recipient if isinstance(recipient, list) else [recipient]
     SUBJECT = subject
     TEXT = body
-
+    
     # Prepare actual message
     message = """From: %s\nTo: %s\nSubject: %s\n\n%s
     """ % (FROM, ", ".join(TO), SUBJECT, TEXT)
@@ -16,8 +17,6 @@ def send_email(user, pwd, recipient, subject, body):
         smtp.login(user,pwd)
         smtp.sendmail(user,TO,message)
         smtp.quit()
-
-app = Flask(__name__)
 
 @app.route('/')
 def home():
