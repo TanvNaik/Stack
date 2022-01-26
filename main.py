@@ -5,8 +5,6 @@ import smtplib
 
 app = Flask(__name__)
 
-
-
 host = os.environ.get('host')
 sender_email = os.environ.get('senderEmail')
 email_pass = os.environ.get('emailPass')
@@ -53,10 +51,6 @@ def form_mail():
 
 
 
-@app.route('/portfolio/<project>')
-def portfolio_details(project):
-
-   return render_template("portfolio-details.html", project = project)
 
 
 if __name__ == '__main__':
