@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d955f4d4-3970-4f34-b805-e513f2438f8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hero.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/team.html" afterDir="false" />
     </list>
